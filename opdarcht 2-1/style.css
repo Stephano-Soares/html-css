@@ -1,0 +1,16 @@
+h1{
+    color:red;
+    align-self: center;
+}
+p{
+    color: red;
+    align-self: center;
+    font-style: 75ch;
+}
+img{
+    width: 300px;
+    align-self: center;
+}
+body{
+    background-color: pink;
+}

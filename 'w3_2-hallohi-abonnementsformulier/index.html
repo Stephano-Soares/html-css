@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+</head>
+    <link rel="stylesheet" href="style1.css">
+<body>
+    <h1>Abonnement afsluiten?</h1>
+    <form action="">
+        <div class="weetniet">
+            <label for="voornaam">voornaam(geen nummers)</label><br>
+            <input type="text" id="voornaam" required pattern="[A-Za-z]" title="no numbers">
+        </div>
+        <div class="weetniet">
+            <label for="achternaam">achternaam</label><br>
+            <input type="text" id="achternaam" required pattern="[A-Za-z]" title="no numbers">
+        </div>
+        <section>  
+            <label for="kies een geslacht">kies uw geslacht</label><br>
+            <input type="radio" checked>
+            <label for="Dhr">Dhr.</label><br>
+            <input type="radio">
+            <label for="Mvr">Mvr.</label><br>
+            <input type="radio">
+            <label for="Anders.">Anders.</label><br>
+        </section>
+        <div class="weetniet">
+            <label for="straat met huisnummer"> straat met huisnummer</label><br>
+            <input type="text" required>
+        </div>
+        <div class="weetniet">
+            <label for="postcode">postcode</label><br>
+            <input type="text" required>
+        </div>
+        <div class="weetniet">
+            <label for="woonplaats">woonplaats</label><br>
+            <input type="text" required>
+        </div>
+        <div class="weetniet">
+            <label for="country">kies een land</for=></label><br>
+            <select name="countrylist" id="country">
+                <option value="Nederland">Nederland</option>
+                <option value="Engeland">Engeland</option>
+                <option value="Belgie">Belgie</option>
+            </select>
+        </div>
+        <div class="weetniet">
+            <label for="Iban">IBAN</label><br>
+            <input type="text" required>
+        </div>
+        <div class="weetniet">
+            <label for="country">Type abonnement</for=></label>
+            <select name="Type abonnement" id="Type abonnement">
+                <option value="TV">TV</option>
+                <option value="Glasvezel">Glasvezel</option>
+                <option value="Mobiel">Mobiel</option>
+            </select>
+        </div>
+        <div class="weetniet">
+            <label for="datum van ingang">datum van ingang</label><br>
+            <input type="date" min="2026-09-21">
+        </div> 
+        <div>
+            <label for="looptijd">Looptijd (in maanden)</label><br>
+            <input type="number" id="Looptijd" min="1" max="24">
+        </div>
+        <div class="weetniet">
+            <label for="quantity"> Aantal gebruikers op het abonnement</label><br>
+            <input type="number" min="1" max="4" id="aantal gebruikers op het abonnement">
+        </div>
+        <div class="weetniet">
+            <label for="email">Email adres</label><br>
+            <input type="email" id="Email adres" required>
+        </div>
+        <div class="weetniet">
+            <label for="wachtwoord">wachtwoord</label><br>
+            <input type="password" id="wachtwoord" maxlength="10" required>
+        </div>
+        <button>Sluit abonnement af</button>
+    </form>
+</html>

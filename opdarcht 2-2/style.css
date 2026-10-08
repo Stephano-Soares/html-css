@@ -1,0 +1,13 @@
+h1,p{
+    color: pink;
+    max-width: 75ch;
+}
+img{
+    align-self: center;
+}
+body{
+    background-color: purple;
+}
+h1, h2{
+    margin-bottom: 15px;
+}

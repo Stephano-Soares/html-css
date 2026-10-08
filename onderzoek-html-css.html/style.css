@@ -1,0 +1,22 @@
+p{
+    color: pink;
+    max-width: 75ch;
+}
+img{
+    align-self: center;
+}
+h1, h2{
+    margin-bottom: 15px;
+}
+nav{
+    background-color: red;
+}
+a{
+    color: pink;
+}
+.highlight{
+    color: blue;
+}
+ul{
+    list-style-type: disc;
+}
