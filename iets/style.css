@@ -1,0 +1,14 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.iets1{
+    flex: 2;
+    background-color: blue;
+    border: 1px solid black;
+}
+.iets2{
+    flex: 1;
+    background-color: green;
+    border: 1px solid black;
+}
